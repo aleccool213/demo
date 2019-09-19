@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "data": {
+    "import_set": "ISET0315032",
+    "staging_table": "u_generic_inbound_incident",
+    "result": [
+      {
+        "transform_map": "Generic Inbound Incident",
+        "table": "incident",
+        "display_name": "number",
+        "display_value": "INC3797646",
+        "record_link": "lmao",
+        "status": "inserted",
+        "sys_id": "d86d26ecdb080c10ee493e4f9d9619c6"
+      }
+    ]
   }
 }
